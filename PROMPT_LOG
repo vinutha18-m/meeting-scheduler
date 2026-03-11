@@ -1,0 +1,83 @@
+# PROMPT_LOG.md
+
+## Prompt #1
+
+* **Timestamp:** 2026-03-11 10:05
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "Using React, help me build a meeting scheduler similar to the reference screenshots. I want a calendar on the left and available time slots on the right. Users should be able to pick a date and then select a time slot."
+* **Context Given:** Assignment description and reference scheduler images.
+* **Outcome:** Accepted
+* **What I Changed After:** Adjusted the component structure to separate the calendar and time slot components.
+* **Why:** To create the base layout for the scheduler interface.
+
+---
+
+## Prompt #2
+
+* **Timestamp:** 2026-03-11 10:30
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "I need to generate 15-minute time slots between 9 AM and 5 PM in JavaScript. Can you show a simple loop to create these slots and display them as buttons in React?"
+* **Context Given:** `CalendarView.js` file.
+* **Outcome:** Modified
+* **What I Changed After:** Updated the loop and button styling to better fit the UI layout.
+* **Why:** To dynamically generate available meeting time slots.
+
+---
+
+## Prompt #3
+
+* **Timestamp:** 2026-03-11 11:10
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "After a user selects a time slot, I want to show a booking form asking for first name, surname, and email. The selected date and time should also be displayed. Can you help create this React component?"
+* **Context Given:** Selected time state from `CalendarView.js`.
+* **Outcome:** Accepted
+* **What I Changed After:** Added additional validation for empty inputs.
+* **Why:** To collect user details before confirming the meeting.
+
+---
+
+## Prompt #4
+
+* **Timestamp:** 2026-03-11 11:45
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "I need a confirmation screen that shows the meeting date, time, timezone, and a Google Meet link after the booking form is submitted."
+* **Context Given:** Booking form submission flow.
+* **Outcome:** Accepted
+* **What I Changed After:** Added a simulated email notification section and action buttons for reschedule and cancel.
+* **Why:** To meet the confirmation and email notification requirement.
+
+---
+
+## Prompt #5
+
+* **Timestamp:** 2026-03-11 12:20
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "My Continue button is appearing beside the time slot buttons instead of below them. The time slots are inside a CSS grid container. How can I move the button below the grid layout?"
+* **Context Given:** `CalendarView.js` and CSS grid layout for time slots.
+* **Outcome:** Modified
+* **What I Changed After:** Moved the Continue button outside the grid container and adjusted CSS layout.
+* **Why:** To fix the UI alignment issue.
+
+---
+
+## Prompt #6
+
+* **Timestamp:** 2026-03-11 13:00
+* **Tool:** ChatGPT
+* **Mode:** Chat
+* **Prompt:**
+  "How can I make this scheduler responsive so the calendar and time slots stack vertically on mobile devices but remain side-by-side on desktop?"
+* **Context Given:** CSS layout using flexbox and grid.
+* **Outcome:** Accepted
+* **What I Changed After:** Added a media query to adjust layout for screens below 768px.
+* **Why:** To satisfy the responsive design requirement.
