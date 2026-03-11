@@ -1,6 +1,5 @@
 # meeting-scheduler
 Created with CodeSandbox
-# Meeting Scheduler
 
 This project is a simple meeting scheduler built using React.
 Users can select a date, choose a time slot, enter their details, and confirm a meeting.
